@@ -3,6 +3,6 @@ const Stylist = ({ children }) => {
     return;
   }
 
-  return <p style={{ color: "red" }}>{children.toUpperCase()}</p>;
+  return <span style={{ color: "red" }}>{children.toUpperCase()}</span>;
 };
 export default Stylist;
